@@ -23,6 +23,12 @@ This is a simple Hangman game built using React. It allows players to guess lett
    npm i
    ```
 
+2. Run Application
+
+   ```bash
+   npm start
+   ```
+
 ## Keyboard Component
 
 Responsible for rendering the keyboard based on wither the user would like to use it
