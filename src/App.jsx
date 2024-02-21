@@ -51,7 +51,7 @@ function App() {
     return () => {
       return document.removeEventListener("keypress", handler);
     };
-  }, []);
+  }, [addGuessedLetter]);
 
   // Effect to listen for Enter key press to restart the game
   useEffect(() => {
